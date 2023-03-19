@@ -1,0 +1,12 @@
+# version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: env/Dockerfile
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "8800-8899:8888"
+
+#    runtime: nvidia
