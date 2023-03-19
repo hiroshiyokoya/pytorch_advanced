@@ -1,0 +1,7 @@
+1_image_classification/data/hymenoptera_data/
+1_image_classification/data/imagenet_class_index.json
+*.DS_Store
+*.jpg
+*.ipynb_checkpoints
+*.pyc
+*.pth
