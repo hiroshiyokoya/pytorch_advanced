@@ -26,7 +26,8 @@ class ImageTransform():
         self.data_transform = {
             'train': transforms.Compose([
                 transforms.RandomResizedCrop(
-                    resize, scale=(0.5, 1.0)),  # データオーギュメンテーション
+                    resize, scale=(0.5, 1.0),
+                ),  # データオーギュメンテーション
                 transforms.RandomHorizontalFlip(),  # データオーギュメンテーション
                 transforms.ToTensor(),  # テンソルに変換
                 transforms.Normalize(mean, std)  # 標準化

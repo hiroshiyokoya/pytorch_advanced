@@ -1,4 +1,4 @@
-# version: '3'
+version: '3'
 services:
   app:
     build:
@@ -8,5 +8,6 @@ services:
       - .:/usr/src/app
     ports:
       - "8800-8899:8888"
+      - "5000-5099:5000"
 
 #    runtime: nvidia

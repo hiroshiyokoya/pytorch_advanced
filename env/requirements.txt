@@ -49,6 +49,9 @@ scipy
 
 torch
 torchvision
-torchviz
-playground-data
-pytorch-lightning
+#torchviz
+#playground-data
+#pytorch-lightning
+
+mlflow
+
